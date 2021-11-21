@@ -24,4 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Contributing
 Any updates are very much welcomed
 
+## More Info
+More Instructions can be gotten from the [Main Website About Page](https://github-remotemore.web.app/about)
+
 ## Thanks
