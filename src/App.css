@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  gap: 5px;
 }
 .search {
   width: 100%;
@@ -105,9 +106,24 @@
   line-height: 1.3;
 }
 .customed-select {
-  border: 2px solid #00B4CC;
+  border: 3px solid #157b88;
+  border-radius: 5px;
 }
 
 .instructions{
   margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .query{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .customed-select{
+    margin-bottom: 6px;
+    height: 37px;
+  }
 }

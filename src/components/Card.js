@@ -8,7 +8,7 @@ const card = (props) => {
         <div className="cards">
           <Link to={name.length>1 ? `/repositories/${name}`: `/`}>
         <div className="card">
-{loading? <div style={{textAlign:"center"}}><div className="no-items-container"><div className="no-items">Loading...</div></div></div>:<>
+{loading? <div style={{display:"flex"}}><div className="no-items-container"><div className="no-items">Loading...</div></div></div>:<>
           <img src={avatar} alt="user-pic" />
           <div className="card-body">
             <h2>{name}</h2>
